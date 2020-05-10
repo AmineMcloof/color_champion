@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="colors.css" />
+    <title>Guess RGB</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>CAN YOU GUESS WHICH COLOR IS THIS?</h1>
+      <p id="rgb">RGB(150, 150, 150)</p>
+    </div>
+    <div class="container">
+      <div class="bar">
+        <span id="refresh">REFRESH</span>
+        <div class="level">
+          <span id="easy">EASY</span>
+          <span id="hard">HARD</span>
+        </div>
+      </div>
+
+      <div class="colorBoxes">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+      </div>
+      <div class="resultMsg" id="resultMsg"></div>
+    </div>
+
+    <script src="colors.js"></script>
+  </body>
+</html>
